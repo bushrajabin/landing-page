@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <!-- NavBar -->
@@ -46,15 +48,16 @@
         <a href="">Blog</a>
         <a href="">Contact</a>
         <button class="btn1">Download</button>
+      </div>
+      <!-- This is for Menu iCON -->
+      <div class="main-container">
+        <div class="menuIcon" onclick="showLinks(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
 
-        <!-- This is for Menu iCON -->
-        <div class="main-container">
-          <div class="menuIcon" onclick="myFunction(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-          </div>
-
+        <div id="select-links-2" class="menu-icon-select-links">
           <div class="select-home">
             <select name="Home" id="home">
               <option value="Home">Home</option>
@@ -125,6 +128,98 @@
       </div>
     </div>
 
+    <!-- For VALUES FIELD -->
+
+    <div class="values-field">
+      <div class="top-field">
+        <button>Our Values</button>
+        <h2><span style="color: blue">Our values </span>driven by relations</h2>
+      </div>
+      <div class="bottom-field">
+        <button href="" class="previous-round">&#8249;</button>
+        <div class="field-1">
+          <img src="./Images/ourvalue_1.png" alt="" />
+          <h2>Skilled Team</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda
+            rem eum recusandae
+          </p>
+        </div>
+        <div class="field-2">
+          <img src="./Images/ourvalue_2.png" alt="" />
+          <h2>Creative Thinking</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda
+            rem eum recusandae
+          </p>
+        </div>
+        <div class="field-3">
+          <img src="./Images/ourvalue_3.png" alt="" />
+          <h2>Growth Support</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda
+            rem eum recusandae
+          </p>
+        </div>
+        <!--  
+         <div class="field-1">
+          <img src="./Images/ourvalue_1.png" alt="" />
+          <h2>SKilled Team</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda
+            rem eum recusandae
+          </p>
+        </div>
+        
+        <div class="field-2">
+          <img src="./Images/ourvalue_2.png" alt="" />
+          <h2>Creative Thinking</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda
+            rem eum recusandae
+          </p>
+        </div>
+        <div class="field-3">
+          <img src="./Images/ourvalue_3.png" alt="" />
+          <h2>Growth Support</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda
+            rem eum recusandae
+          </p>
+        </div> -->
+
+        <button href="" class="next-round">&#8250;</button>
+      </div>
+    </div>
+
+    <!-- Working -->
+
+    <div class="work-main-contianer">
+      <div class="working-top-page">
+        <button>Quick & easy</button>
+        <h1>How it works in 3 steps</h1>
+      </div>
+
+      <div class="working-botto-page">
+        <div class="page-1">
+          <img src="./Images/play.png" alt="" />
+          <h1>Download app</h1>
+          <p>Download App. It will work for Android, Mac & Windows</p>
+        </div>
+        <div class="page-2">
+          <img src="./Images/account.png" alt="" />
+          <h1>Create Account</h1>
+          <h4>Free for 14 days</h4>
+          <p>Our app is FREE for 14 days, Sign up free for trial period</p>
+        </div>
+        <div class="page-3">
+          <img src="./Images/like.png" alt="" />
+          <h1>Enjoy the app</h1>
+          <h4>Read FAQs for any query</h4>
+          <p>Enjoy our app & share most amazing app experience</p>
+        </div>
+      </div>
+    </div>
     <script src="./scrpt.js"></script>
   </body>
 </html>

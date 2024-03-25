@@ -14,10 +14,10 @@
     padding: 30px;
     align-items: center;
     border-bottom: 3px solid white;
+    overflow: hidden;
 }
 
 .links {
-
     padding: 10px;
     font-size: 20px;
     display: flex;
@@ -62,7 +62,6 @@ select {
 
 
 .main-container {
-    background-color: red;
     display: none;
 }
 
@@ -100,8 +99,6 @@ select {
     flex-direction: column;
     align-items: center;
     width: 100%;
-
-
 }
 
 .left-side {
@@ -154,13 +151,304 @@ select {
 }
 
 .right-images {
-    padding: 10px;
+
+    justify-content: center;
 }
 
 .right-images>img {
     background-color: white;
     border-radius: 50px;
     padding: 2px;
-    position: relative;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 
 }
+
+/* CSS FOR VALUES-FIELD */
+.values-field {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    position: relative;
+    bottom: 80px;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    cursor: pointer;
+}
+
+.top-field {
+    text-align: center;
+    padding: 50px;
+}
+
+.top-field>button {
+    background-color: steelblue;
+    padding: 6px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 100px;
+}
+
+.top-field>h2 {
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 4px;
+}
+
+.bottom-field {
+    display: flex;
+    flex-direction: row;
+}
+
+.field-1,
+.field-2,
+.field-3 {
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.field-1>img,
+.field-2>img,
+.field-3>img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.field-1>h2,
+.field-2>h2,
+.field-3>h2 {
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+
+.field-1>p,
+.field-2>p,
+.field-3>p {
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.previous-round,
+.next-round {
+    background-color: transparent;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin: auto;
+    border-radius: 100px;
+}
+
+/* CSS FOR WORKING PAGE */
+.work-main-contianer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    position: relative;
+    bottom: 80px;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.working-top-page {
+    text-align: center;
+}
+
+.working-top-page>button {
+    background-color: steelblue;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    color: black;
+}
+
+.working-top-page>h1 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.working-botto-page {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.page-1,
+.page-2,
+.page-3 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 10px;
+}
+
+.page-1>img,
+.page-2>img,
+.page-3>img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.page-1>h1,
+.page-2>h1,
+.page-3>h1 {
+    font-size: 26px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page-2>h4,
+.page-3>h4 {
+    font-size: 17px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page-1>p,
+.page-2>p,
+.page-3>p {
+    text-align: center;
+    padding: 10px;
+}
+
+/* MEDIA QUERY */
+@media (max-width:500px) {
+    .NavBar {
+        background-color: rebeccapurple;
+        width: 100%;
+        justify-content: space-between;
+        position: fixed;
+        top: 0px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #select-links-2 {
+        display: none;
+    }
+
+    .menu-icon-select-links {
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-Part {
+        padding-top: 90px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left-side {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-left {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .hero-left>h1 {
+        font-size: 25px;
+        padding-left: 0px;
+        margin: 30px;
+    }
+
+    .hero-left>p {
+        font-size: 14px;
+        padding-left: 0px;
+        margin: 30px;
+    }
+
+    .hero-right {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .hero-bottom {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .hero-bottom>img {
+        object-fit: contain;
+
+    }
+
+    .values-field{
+        background-color: red;
+        width: 100%;
+        margin: 0px;
+        margin-top: 40px;
+    }
+    .top-field{
+        background-color: green;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .bottom-field{
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+
+}
+
+
+@media (min-width: 500px) and (max-width: 550px) {}
+
+@media (min-width: 700px) and (max-width: 1200px) {}
