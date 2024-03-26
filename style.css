@@ -516,6 +516,7 @@ p {
     padding-top: 8%;
     padding-left: 8%;
     margin: 0px;
+    background-color: transparent;
 }
 
 .app-left>button {
@@ -531,17 +532,20 @@ p {
     font-size: 50px;
     color: var(--text-white);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
 }
 
 .app-left>p {
     font-size: 18px;
     color: var(--text-white);
+    background-color: transparent;
 }
 
 .download {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
+    background-color: transparent;
 }
 
 .download>button {
@@ -552,12 +556,14 @@ p {
     border-radius: 10px;
     background-color: var(--bg-white);
     width: 30%;
+
 }
 
 .app-1,
 .app-2 {
     display: flex;
     flex-direction: row;
+    background-color: var(--bg-white);
 }
 
 .app-1>i,
@@ -571,6 +577,7 @@ p {
     flex-direction: column;
     padding: 2px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
 }
 
 .span-1>span,
@@ -583,10 +590,12 @@ p {
 .app-right {
     width: 38%;
     padding-left: 30px;
+    background-color: transparent;
 }
 
 .app-right>img {
     padding-top: 70px;
+    background-color: transparent;
 }
 
 
@@ -991,4 +1000,179 @@ input {
 
 .footer-links>a:hover {
     color: var(--text-white);
+}
+
+
+/* CSS FOR SERVICE */
+.service-main-container {
+    width: 100%;
+}
+
+.service-top-part {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.service-top-part>button {
+    background-color: var(--primery);
+    border: none;
+    width: 130px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 20px;
+}
+
+.service-top-part>h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+.service-top-part>h2>span {
+    color: var(--primery);
+    background-color: transparent;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+}
+
+/* -----CSS FOR SERVICE CARD-1,Service card-2 & service card-3---- */
+.service-1,
+.service-2,
+.service-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* -----Top Buttons-- */
+.manage-btn,
+.meeting-btn,
+.history-btn {
+    width: 160px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--bg-white);
+    color: var(--primery);
+    letter-spacing: 1px;
+
+}
+
+/* ----These are only for paragraph secion-- */
+.left-service-1,
+.left-service-2,
+.left-service-3 {
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-top: 50px;
+    gap: 10px;
+}
+
+.left-service-1>h2,
+.left-service-2>h2,
+.left-service-3>h2 {
+    font-size: 37px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;
+}
+
+.left-service-1>h2>span,
+.left-service-2>h2>span,
+.left-service-3>h2>span {
+    color: var(--primery);
+}
+
+.p_1 {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: transparent;
+    padding-top: 10px;
+}
+
+.headings {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.headings>h2 {
+    padding-left: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* --------This is for Task Manage paragraph---- */
+.p_2,
+.p_3 {
+    width: 400px;
+    padding-left: 30px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: transparent;
+}
+
+/* -----These paragraph are for meeting & history--- */
+.p_4,
+.p_5,
+.p_6 {
+    width: 400px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: transparent;
+}
+
+/* ----These are only for images section--- */
+.right-service-1,
+.right-service-2,
+.right-service-3 {
+    width: 30%;
+    background-color: var(--bg-white);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.right-service-1>img,
+.right-service-2>img,
+.right-service-3>img {
+    border: 2px solid var(--black);
+    border-radius: 20px;
+
+}
+
+/* Trial buttons */
+
+.Trial-button {
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+    width: 170px;
+    height: 45px;
+    background-color: var(--primery);
+    font-size: 18px;
+    border: 1px solid var(--primery);
+    border-radius: 100px;
+    padding: 5px;
+    position: relative;
+    right: 2px;
+    bottom: 4px;
+    box-shadow: 2px 6px 1px 0px rgb(16, 6, 84);
+    cursor: pointer;
+    margin-top: 30px;
+    color: var(--text-white);
+}
+
+.Trial-button:hover {
+    position: relative;
+    left: 4px;
+    top: 4px;
+    box-shadow: none;
 }
