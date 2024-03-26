@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML</title>
     <link rel="stylesheet" href="./style.css" />
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-
+    <!-- This link for Normal CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- This is for Media Query -->
+    <link rel="stylesheet" href="./mediaQuery.css" />
   </head>
+
   <body>
     <!-- NavBar -->
     <nav class="NavBar">
@@ -59,7 +65,7 @@
 
         <div id="select-links-2" class="menu-icon-select-links">
           <div class="select-home">
-            <select name="Home" id="home">
+            <select name="Home" id="pages">
               <option value="Home">Home</option>
               <option value="Home1">Home1</option>
               <option value="Home1">Home2</option>
@@ -100,8 +106,8 @@
         <div class="hero-left">
           <h1>Lead generation mobile app landing page</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing indus orem <br />
-            Ipsum has been the industrys.
+            Lorem Ipsum is simply dummy text of the printing indus orem Ipsum
+            has been the industrys.
           </p>
         </div>
         <div class="hero-right">
@@ -114,10 +120,7 @@
 
           <div class="hero-texts">
             <h2>12M + Active users</h2>
-            <p>
-              The best application to manage your <br />
-              customer worldwide
-            </p>
+            <p>The best application to manage your customer worldwide</p>
             <button class="btn2">Start Free Trial</button>
           </div>
         </div>
@@ -145,7 +148,7 @@
             rem eum recusandae
           </p>
         </div>
-        <div class="field-2">
+        <!-- <div class="field-2">
           <img src="./Images/ourvalue_2.png" alt="" />
           <h2>Creative Thinking</h2>
           <p>
@@ -160,7 +163,7 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda
             rem eum recusandae
           </p>
-        </div>
+        </div> -->
         <!--  
          <div class="field-1">
           <img src="./Images/ourvalue_1.png" alt="" />
@@ -192,7 +195,7 @@
       </div>
     </div>
 
-    <!-- Working -->
+    <!--  Working page start From Here -->
 
     <div class="work-main-contianer">
       <div class="working-top-page">
@@ -204,6 +207,11 @@
         <div class="page-1">
           <img src="./Images/play.png" alt="" />
           <h1>Download app</h1>
+          <div class="fav-icons">
+            <i class="fa-brands fa-android"></i>
+            <i class="fa-brands fa-windows"></i>
+            <i class="fa-brands fa-apple"></i>
+          </div>
           <p>Download App. It will work for Android, Mac & Windows</p>
         </div>
         <div class="page-2">
@@ -217,6 +225,152 @@
           <h1>Enjoy the app</h1>
           <h4>Read FAQs for any query</h4>
           <p>Enjoy our app & share most amazing app experience</p>
+        </div>
+      </div>
+      <button class="btn3">Get Started Now</button>
+    </div>
+
+    <!-- App-Available -->
+
+    <!-- <div class="app-main-container">
+      <div class="app-left">
+        <button>Download</button>
+        <h1>Our app is available for Android & iOS</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing indus orem Ipsum has
+          been the industrys.
+        </p>
+        <div class="download">
+          <button class="app-1">
+            <i class="fa-brands fa-google-play"></i>
+            <div class="span-1">
+              GET IT ON <br />
+              <span>Google Play</span>
+            </div>
+          </button>
+          <button class="app-2">
+            <i class="fa-brands fa-apple"></i>
+            <div class="span-2">
+              Download on the <br />
+              <span>App Store</span>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="app-right">
+        <img src="./Images/our_app.png" alt="" />
+      </div>
+    </div> -->
+
+    <!-- CIENTS -->
+    <div class="clients-main-container">
+      <div class="clients-top-part">
+        <button>Our Clients</button>
+        <h2>3500+ companies</h2>
+        <h3>Using our application</h3>
+      </div>
+      <div class="clients-bottom-container">
+        <img src="./Images/paypal.png" alt="" />
+        <img src="./Images/spoty.png" alt="" />
+        <img src="./Images/shopboat.png" alt="" />
+        <img src="./Images/slack.png" alt="" />
+        <img src="./Images/envato.png" alt="" />
+        <img src="./Images/jquery.png" alt="" />
+        <img src="./Images/woocommerce.png" alt="" />
+        <img src="./Images/themeforest.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Blog Page Start From HERE -->
+    <div class="blog-main-contaner">
+      <div class="blog-top-container">
+        <button>Latest updates</button>
+        <h2>Our laest <span>blog post</span></h2>
+      </div>
+
+      <div class="blog-images-container">
+        <div class="blog-1">
+          <img src="./Images/blog1.png" alt="" />
+          <p>May 12, 2023 | Mobile app | 5 Comments</p>
+          <h3>Effective ways to monetize mobile apps for better perfomance</h3>
+          <div class="buttons">
+            <button>Mobile app</button>
+            <h4>Read more <i class="fa-solid fa-arrow-right"></i></h4>
+          </div>
+        </div>
+        <div class="blog-2">
+          <img src="./Images/blog2.png" alt="" />
+          <p>May 12, 2023 | Mobile app | 5 Comments</p>
+          <h3>Why you our app, top 5 reason to choose our app</h3>
+          <div class="buttons">
+            <button>User experience</button>
+            <h4>Read more <i class="fa-solid fa-arrow-right"></i></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER PAGE START FROM HERE -->
+    <div class="footer-container">
+      <div class="footer-top-side">
+        <div class="footer-left-side">
+          <img src="./Images/appix.png" alt="" />
+          <h2>Subscribe newsletter</h2>
+          <p>Be the first to recieve all latest post in your inbox</p>
+          <h1>
+            <input type="email" placeholder="Enter your email" /><i
+              class="fa-brands fa-telegram"
+            ></i>
+          </h1>
+          <h5>By clicking send link you agree to receive message.</h5>
+          <h4>support@example.com | +1-900-123 4567</h4>
+          <div class="social-links">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </div>
+        <div class="footer-right-side">
+          <h2>Download app</h2>
+          <div class="footer-app">
+            <button class="footer-app-1">
+              <i class="fa-brands fa-google-play"></i>
+              <div class="footer-right-1">
+                GET IT ON <br />
+                <span>Google Play</span>
+              </div>
+            </button>
+            <button class="footer-app-2">
+              <i class="fa-brands fa-apple"></i>
+              <div class="footer-right-2">
+                Download on the <br />
+                <span>App Store</span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-page">
+          <p>© Copyrights 2023. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="">Home |</a>
+            <a href="">About us |</a>
+            <a href="">Pricing |</a>
+            <a href=""> Blog |</a>
+            <a href="">Contact us</a>
+          </div>
+
+          <h4>
+            Crafted by
+            <a
+              href="https://themeforest.net/user/kalanidhithemes"
+              target="_blank"
+              >Kalanidhi Themes</a
+            >
+          </h4>
         </div>
       </div>
     </div>
