@@ -45,6 +45,14 @@
     background-color: var(--primery);
 }
 
+.logo>a {
+    background-color: var(--primery);
+}
+
+.logo>a>img {
+    background-color: var(--primery);
+}
+
 
 .links {
     padding: 10px;
@@ -200,6 +208,10 @@ option {
     color: var(--text-white);
     padding: 4px;
     background-color: var(--primery);
+}
+
+.hero-texts>a {
+    background-color: transparent;
 }
 
 .hero-texts>h2,
@@ -673,16 +685,16 @@ p {
     padding: 10px;
 }
 
-.blog-top-container>h2 {
+.blog-top-container>a>h2 {
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.blog-top-container>h2>span {
+.blog-top-container>a>h2>span {
     color: var(--primery);
 }
 
-.blog-main-contaner>span {
+.blog-main-contaner>a>span {
     color: var(--primery);
 }
 
@@ -744,12 +756,17 @@ p {
     color: var(--primery);
 }
 
-.buttons>h4 {
+.buttons>a {
+    text-decoration: none;
+}
+
+.buttons>a>h4 {
     font-size: 15px;
     color: var(--primery);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
     background-color: var(--bg-white);
+
 }
 
 .buttons>h4:hover {
