@@ -376,12 +376,12 @@ p {
     margin-left: 90px;
     margin-right: 90px;
     position: relative;
-    bottom: 80px;
-    padding: 60px;
+    bottom: 40px;
+    padding: 50px;
     border-radius: 20px;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 90px;
 }
 
 .working-top-page {
@@ -615,6 +615,7 @@ p {
 .clients-main-container {
     justify-content: center;
     margin: 60px;
+    /* margin-top: 90px; */
 }
 
 .clients-top-part {
@@ -1143,11 +1144,25 @@ input {
 /* -----These paragraph are for meeting & history--- */
 .p_4,
 .p_5,
-.p_6 {
+.p_6,
+.p_7,
+.p_8,
+.p_9,
+.p_10,
+.p_11 {
     width: 400px;
     font-size: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: transparent;
+}
+
+.p_5>i,
+.p_6>i,
+.p_7>i,
+.p_9>i,
+.p_10>i,
+.p_11>i {
+    color: var(--primery);
 }
 
 /* ----These are only for images section--- */
@@ -1157,7 +1172,7 @@ input {
     width: 30%;
     background-color: var(--bg-white);
     padding: 50px;
-    margin: 20px;
+    margin: 60px;
     border-radius: 20px;
 }
 

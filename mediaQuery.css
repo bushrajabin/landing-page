@@ -133,7 +133,7 @@
         background-color: red;
     }
 
-    /*  MEDIA QUERY FOR WORK-MAN-CONTANER */
+    /*  MEDIA QUERY FOR WORK-MAIN-CONTANER */
     .work-main-contianer {
         background-color: var(--bg-white);
         display: flex;
@@ -419,30 +419,24 @@
 
     /* Query for Services */
     .service-main-container {
-        background-color: purple;
         display: flex;
         flex-direction: column;
-        /* width: 100vw; */
-        /* padding: 0px;
-        margin: 0px; */
+        width: 100%;
+        margin: 0px;
     }
 
     .service-top-part {
         text-align: center;
-        /* padding: 10px; */
         background-color: transparent;
-        background-color: red;
-        /* margin: 0px; */
-        /* padding: 0px; */
         width: 100%;
 
     }
 
     .service-top-part>h2 {
-        margin: 0px;
         padding: 0px;
-        /* font-size: 30px; */
+        font-size: 30px;
         width: 100%;
+        padding-left: 9px;
     }
 
     .service-1 {
@@ -450,19 +444,17 @@
         flex-direction: column;
         flex-direction: column-reverse;
         justify-content: space-evenly;
-        /* width: 100%; */
+        width: 100%;
         margin: 0px;
-        padding: 0px;
-        background-color: blue;
+        padding: 10px;
     }
 
-    /* 
     .service-2 {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        width: 100%;
         margin: 0px;
-        padding: 0px;
     }
 
     .service-3 {
@@ -470,25 +462,97 @@
         flex-direction: column;
         flex-direction: column-reverse;
         justify-content: space-evenly;
+        width: 100%;
         margin: 0px;
-        padding: 0px;
-    } */
-
-    .left-service-1,
-    .left-service-2,
-    .left-service-3 {
-        /* padding-left: 10px; */
-        /* width: 100%; */
-        margin: 0px;
-        padding: 0px;
+        padding: 10px;
     }
 
-    .left-service-1>h2,
-    .left-service-2>h2,
-    .left-service-3>h2 {
-        background-color: red;
-        /* width: 100%; */
+    /* Left-service-1 */
+    .left-service-1 {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        padding-left: 18px;
+    }
+
+    .left-service-1>h2 {
         font-size: 24px;
+    }
+
+    .p_1 {
+        width: 100%;
+    }
+
+    .p_2,
+    .p_3 {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* Left-service-2 */
+    .left-service-2 {
+        width: 100%;
+        margin-right: 0px;
+        margin: 0px;
+        padding: 0px;
+        padding-left: 18px;
+    }
+
+    .meeting-btn {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .left-service-2>h2 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .p_4 {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .p_5,
+    .p_6,
+    .p_7 {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .p_7 {
+        background-color: transparent;
+    }
+
+    .p_5>i,
+    .p_6>i,
+    .p_7>i {
+        color: var(--primery);
+    }
+
+    /* LEFt service-3 */
+    .left-service-3 {
+        width: 100%;
+        padding-left: 14px;
+        margin-top: 0px;
+    }
+
+    .left-service-3>h2 {
+        font-size: 24px;
+    }
+
+    .p_8,
+    .p_9,
+    .p_10,
+    .p_11 {
+        background-color: transparent;
+    }
+
+    .p_9>i,
+    .p_10>i,
+    .p_11>i {
+        color: var(--primery);
     }
 
     /* These are only for images */
@@ -496,31 +560,23 @@
     .right-service-2,
     .right-service-3 {
         background-color: var(--bg-white);
-        width: 100%;
-
+        width: 90%;
+        margin-left: 0px;
+        margin: 15px;
         border-radius: 20px;
     }
+
 
     .right-service-1>img,
     .right-service-2>img,
     .right-service-3>img {
         width: 100%;
+        height: 100%;
+        object-fit: contain;
         border: 2px solid var(--black);
         border-radius: 20px;
-        /* margin: 10px; */
-        padding: 0px;
-
     }
 
-    .p_1 {
-        background-color: red;
-    }
-
-    .p_2,
-    .p_3 {
-        background-color: burlywood;
-        width: 100%;
-    }
 
 
     /* QUEry for contact page */
@@ -1707,4 +1763,202 @@
         object-fit: contain;
         margin: 0px;
     }
+
+    /* Query for service */
+    .service-main-container {
+        width: 100%;
+    }
+
+    .service-top-part {
+        text-align: center;
+        padding: 20px;
+        background-color: transparent;
+    }
+
+    .service-top-part>button {
+        background-color: var(--primery);
+        border: none;
+        width: 130px;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 17px;
+        margin: 20px;
+    }
+
+    .service-top-part>h2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        background-color: transparent;
+    }
+
+    .service-top-part>h2>span {
+        color: var(--primery);
+        background-color: transparent;
+    }
+
+    .service-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* -----CSS FOR SERVICE CARD-1,Service card-2 & service card-3---- */
+    .service-1,
+    .service-2,
+    .service-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 0px;
+
+    }
+
+    /* -----Top Buttons-- */
+    .manage-btn,
+    .meeting-btn,
+    .history-btn {
+        width: 160px;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        background-color: var(--bg-white);
+        color: var(--primery);
+        letter-spacing: 1px;
+
+    }
+
+    /* ----These are only for paragraph secion-- */
+    .left-service-1,
+    .left-service-2,
+    .left-service-3 {
+
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-top: 50px;
+        gap: 10px;
+        padding: 40px;
+    }
+
+    .left-service-1>h2,
+    .left-service-2>h2,
+    .left-service-3>h2 {
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 15px;
+    }
+
+    .left-service-1>h2>span,
+    .left-service-2>h2>span,
+    .left-service-3>h2>span {
+        color: var(--primery);
+    }
+
+    .p_1 {
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: transparent;
+        padding-top: 10px;
+    }
+
+    .headings {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .headings>h2 {
+        padding-left: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /* --------This is for Task Manage paragraph---- */
+    .p_2,
+    .p_3 {
+        width: 330px;
+        font-size: 14px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: transparent;
+    }
+
+    /* -----These paragraph are for meeting & history--- */
+    .p_4,
+    .p_5,
+    .p_6,
+    .p_7,
+    .p_8,
+    .p_9,
+    .p_10,
+    .p_11 {
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: transparent;
+        width: 330px;
+    }
+
+    .p_5>i,
+    .p_6>i,
+    .p_7>i,
+    .p_9>i,
+    .p_10>i,
+    .p_11>i {
+        color: var(--primery);
+    }
+
+    /* ----These are only for images section--- */
+    .right-service-1,
+    .right-service-2,
+    .right-service-3 {
+        width: 60%;
+        height: 80%;
+        background-color: var(--bg-white);
+        border-radius: 20px;
+
+    }
+
+    .right-service-1>img,
+    .right-service-2>img,
+    .right-service-3>img {
+        border: 2px solid var(--black);
+        border-radius: 20px;
+        margin: 0px;
+        padding: 0px;
+        width: 90%;
+        height: 80%;
+        object-fit: contain;
+        margin: 15px;
+
+
+    }
+
+    /* Trial buttons */
+
+    .Trial-button {
+        border-radius: 20px;
+        border: none;
+        margin-left: 10px;
+        width: 170px;
+        height: 45px;
+        background-color: var(--primery);
+        font-size: 18px;
+        border: 1px solid var(--primery);
+        border-radius: 100px;
+        padding: 5px;
+        position: relative;
+        right: 2px;
+        bottom: 4px;
+        box-shadow: 2px 6px 1px 0px rgb(16, 6, 84);
+        cursor: pointer;
+        margin-top: 30px;
+        color: var(--text-white);
+    }
+
+    .Trial-button:hover {
+        position: relative;
+        left: 4px;
+        top: 4px;
+        box-shadow: none;
+    }
+
 }
