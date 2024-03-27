@@ -833,7 +833,11 @@ p {
     background-color: transparent;
 }
 
-.social-links>i {
+.social-links>a {
+    background-color: transparent;
+}
+
+.social-links>a>i {
     font-size: 20px;
     padding: 6px;
     border-radius: 100px;
@@ -844,7 +848,7 @@ p {
 
 }
 
-.social-links>i:hover {
+.social-links>a>i:hover {
     background-color: var(--bg-white);
     color: var(--black);
 }
@@ -1175,4 +1179,239 @@ input {
     left: 4px;
     top: 4px;
     box-shadow: none;
+}
+
+/* -------------------------------------CSS FOR CONTACT-PAGE-------------- */
+.contact-main-container {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-page-top {
+    text-align: center;
+    padding: 70px;
+}
+
+.contact-page-top>button {
+    border: none;
+    background-color: var(--primery);
+    padding: 10px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: var(--text-white);
+}
+
+.contact-page-top>h2 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+
+.contact-page-top>p {
+    font-size: 17px;
+    width: 600px;
+    margin-left: 30%;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.contact-page-top>h2>span {
+    color: var(--primery);
+}
+
+/* CSS FOR CONTACT_PAGE-TOP */
+.contact-images {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.contact-1,
+.contact-2,
+.contact-3 {
+    padding: 20px;
+    padding-top: 50px;
+
+}
+
+.contact-1>img,
+.contact-2>img,
+.contact-3>img {
+    background-color: var(--primery);
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-1>p,
+.contact-2>p,
+.contact-3>p {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: transparent;
+    padding-top: 20px;
+}
+
+.contact-1>h4,
+.contact-2>h4,
+.contact-3>h4 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.contact-1>h4:hover,
+.contact-2>h4:hover,
+.contact-3>h4:hover {
+    color: var(--primery);
+}
+
+/* css foe message form */
+.message-top-part {
+    background-color: var(--bg-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+    margin: 90px;
+    border-radius: 40px;
+    margin-top: 0px;
+}
+
+.message-top-part>button {
+    background-color: var(--primery);
+    border: none;
+    width: 150px;
+    padding: 7px;
+    border-radius: 50px;
+    font-size: 17px;
+    margin: 3px;
+    color: var(--text-white);
+}
+
+.message-top-part>h2 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 3px;
+    background-color: transparent;
+}
+
+.message-top-part>p {
+    font-size: 17px;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+.top-fields {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.top-fields>input {
+    background-color: var(--light-yellow);
+    width: 340px;
+    color: var(--text-white);
+    margin: 22px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.text-area {
+    width: 95%;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.text-area>textarea {
+    width: 100%;
+    padding: 1px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    color: var(--text-white);
+}
+
+.end-button {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 60px;
+    padding: 10px;
+    background-color: transparent;
+    padding-top: 40px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+
+.end-left-side {
+    background-color: transparent;
+}
+
+.end-left-side>label {
+    background-color: transparent;
+}
+
+#checkbox {
+    width: 15px;
+
+}
+
+.end-button>label {
+    background-color: transparent;
+}
+
+.end-button>button {
+    border-radius: 20px;
+    border: none;
+    margin-left: 42%;
+    width: 170px;
+    height: 45px;
+    background-color: var(--primery);
+    font-size: 18px;
+    border: 1px solid var(--primery);
+    border-radius: 100px;
+    padding: 5px;
+    position: relative;
+    right: 2px;
+    bottom: 4px;
+    box-shadow: 2px 6px 1px 0px rgb(16, 6, 84);
+    cursor: pointer;
+    margin-top: 16px;
+    color: var(--text-white);
+}
+
+.end-button>button:hover {
+    position: relative;
+    left: 4px;
+    top: 4px;
+    box-shadow: none;
+}
+
+/* CSS FOR MAAP -iframe */
+.map>iframe {
+    width: 87%;
+    height: 65vh;
+    object-fit: contain;
+    margin: 90px;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 17px;
 }
