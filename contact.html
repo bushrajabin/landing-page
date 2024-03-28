@@ -13,87 +13,115 @@
   </head>
 
   <body>
-    <nav class="NavBar">
+    <nav class="navbar navbar-expand-lg">
       <div class="logo">
-        <a href="index.html"><img src="./Images/appix.png" alt="" /></a>
+         <a href="index.html"><img src="./Images/appix.png" alt="" /></a>
       </div>
-      <div class="links">
-        <div class="select-home">
-          <select name="Home" id="home">
-            <option value="Home">Home</option>
-            <option value="Home1">Home1</option>
-            <option value="Home1">Home2</option>
-            <option value="Home1">Home3</option>
-            <option value="Home1">Home4</option>
-            <option value="Home1">Home5</option>
-            <option value="Home1">Home6</option>
-            <option value="Home1">Home7</option>
-            <option value="Home1">Home8</option>
-            <option value="Home1">Home9</option>
-            <option value="Home1">Home10</option>
-            <option value="Home1">Home11</option>
-            <option value="Home1">Home12</option>
-            <option value="Home1">Home13</option>
-            <option value="Home1">Home14</option>
-          </select>
-        </div>
-        <a href="">Aboutus</a>
-        <div class="select-page">
-          <select name="pages" id="pages">
-            <option value="Blog List">Blog List</option>
-            <option value="Single Blog">Single Blog</option>
-            <option value="Signup">Sign In</option>
-            <option value="signUp">Sign Up</option>
-          </select>
-        </div>
-        <a href="">Pricing</a>
-        <a href="">Reviews</a>
-        <a href="">Blog</a>
-        <a href="">Contact</a>
-        <button class="btn1">Download</button>
-      </div>
-      <!-- This is for Menu iCON -->
-      <div class="main-container">
-        <div class="menuIcon" onclick="showLinks(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </div>
+      <div class="collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <!-- secondery menu start -->
+          <li class="nav-item has_dropdown">
+            <a class="nav-link">Home</a>
+            <span class="drp_btn"><i class="icofont-rounded-down"></i></span>
+            <div class="sub_menu">
+              <ul>
+                <li>
+                  <a>Home 1 </a>
+                </li>
+                <li>
+                  <a> Home 2 </a>
+                </li>
+                <li>
+                  <a>Home 3</a>
+                </li>
+                <li>
+                  <a>Home 4</a>
+                </li>
+                <li>
+                  <a>Home 5</a>
+                </li>
+                <li>
+                  <a>Home 6</a>
+                </li>
+                <li>
+                  <a>Home 7</a>
+                </li>
+                <li>
+                  <a>Home 8</a>
+                </li>
+                <li>
+                  <a>Home 9</a>
+                </li>
+                <li>
+                  <a>Home 10</a>
+                </li>
+                <li>
+                  <a>Home 11</a>
+                </li>
+                <li>
+                  <a>Home 12</a>
+                </li>
+                <li>
+                  <a>Home 13</a>
+                </li>
+                <li>
+                  <a>Home 14</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- secondery menu end -->
 
-        <div id="select-links-2" class="menu-icon-select-links">
-          <div class="select-home">
-            <select name="Home" id="pages">
-              <option value="Home">Home</option>
-              <option value="Home1">Home1</option>
-              <option value="Home1">Home2</option>
-              <option value="Home1">Home3</option>
-              <option value="Home1">Home4</option>
-              <option value="Home1">Home5</option>
-              <option value="Home1">Home6</option>
-              <option value="Home1">Home7</option>
-              <option value="Home1">Home8</option>
-              <option value="Home1">Home9</option>
-              <option value="Home1">Home10</option>
-              <option value="Home1">Home11</option>
-              <option value="Home1">Home12</option>
-              <option value="Home1">Home13</option>
-              <option value="Home1">Home14</option>
-            </select>
-          </div>
-          <a href="">Aboutus</a>
-          <div class="select-page">
-            <select name="pages" id="pages">
-              <option value="Blog List">Blog List</option>
-              <option value="Single Blog">Single Blog</option>
-              <option value="Signup">Sign In</option>
-              <option value="signUp">Sign Up</option>
-            </select>
-          </div>
-          <a href="">Pricing</a>
-          <a href="">Reviews</a>
-          <a href="">Blog</a>
-          <a href="">Contact</a>
-        </div>
+          <li class="nav-item">
+            <a class="nav-link">About us</a>
+          </li>
+          <!-- secondery menu start -->
+          <li class="nav-item has_dropdown">
+            <a class="nav-link">Pages</a>
+            <span class="drp_btn"><i class="icofont-rounded-down"></i></span>
+            <div class="sub_menu">
+              <ul>
+                <li>
+                  <a>Blog List</a>
+                </li>
+                <li>
+                  <a>Single Blog</a>
+                </li>
+                <li>
+                  <a>Sign In</a>
+                </li>
+                <li>
+                  <a>Sign Up</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- secondery menu end -->
+
+          <li class="nav-item">
+            <a class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <div class="btn_block">
+              <a class="nav-link dark_btn">Download</a>
+              <div class="btn_bottom"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="menuIcon" onclick="showLinks(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
       </div>
     </nav>
     <div class="contact-main-container" id="contact-page">

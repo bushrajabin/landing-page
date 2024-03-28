@@ -16,7 +16,7 @@
 
 /* FOR 500px */
 @media (max-width:500px) {
-    .NavBar {
+    .navbar {
         background-color: var(--primery);
         width: 100%;
         justify-content: space-between;
@@ -25,7 +25,7 @@
         padding: 10px;
     }
 
-    .links {
+    .navbar-nav {
         display: none;
     }
 
@@ -38,10 +38,11 @@
         display: none;
     }
 
-    .menu-icon-select-links {
-        background-color: yellow;
+    .menuIcon {
         display: flex;
         flex-direction: column;
+        background-color: transparent;
+        gap: 0px;
     }
 
     .hero-Part {
@@ -749,6 +750,88 @@
         margin: 0px;
         font-size: 10px;
     }
+
+    /* CSS FOR SIGN_IN_FORM */
+    .sign-in-main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .singin-nav-bar {
+
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .sign-in-div {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .singin-nav-bar>a>button {
+        width: 140px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .sign-in-logo {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .sign-in-left-div {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 34px;
+    }
+
+    .sign-in-left-div>h2 {
+        font-size: 35px;
+    }
+
+    .label-part {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        padding-left: 10px;
+    }
+
+    .label-part>a {
+        background-color: transparent;
+        padding-left: 10px;
+        color: black;
+    }
+
+    .sign-in-buttons {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sign-in-buttons>button {
+        padding: 7px;
+    }
+
+    .sign-in-right-div {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .sign-in-right-div>img {
+        margin: 0px;
+        padding: 0px;
+    }
+
 }
 
 /* 500-700 */
@@ -1154,7 +1237,9 @@
         justify-content: center;
     }
 
+
 }
+
 
 /* for 700-1200 */
 @media (min-width: 700px) and (max-width: 1200px) {

@@ -16,11 +16,118 @@
 
   <body>
     <!-- NavBar -->
-    <nav class="NavBar">
+    <nav class="navbar navbar-expand-lg">
       <div class="logo">
         <img src="./Images/appix.png" alt="" />
       </div>
-      <div class="links">
+      <div class="collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav" id="navbar-nav-links">
+          <!-- secondery menu start -->
+          <li class="nav-item has_dropdown">
+            <a class="nav-link">Home</a>
+            <span class="drp_btn"><i class="icofont-rounded-down"></i></span>
+            <div class="sub_menu">
+              <ul>
+                <li>
+                  <a>Home 1 </a>
+                </li>
+                <li>
+                  <a> Home 2 </a>
+                </li>
+                <li>
+                  <a>Home 3</a>
+                </li>
+                <li>
+                  <a>Home 4</a>
+                </li>
+                <li>
+                  <a>Home 5</a>
+                </li>
+                <li>
+                  <a>Home 6</a>
+                </li>
+                <li>
+                  <a>Home 7</a>
+                </li>
+                <li>
+                  <a>Home 8</a>
+                </li>
+                <li>
+                  <a>Home 9</a>
+                </li>
+                <li>
+                  <a>Home 10</a>
+                </li>
+                <li>
+                  <a>Home 11</a>
+                </li>
+                <li>
+                  <a>Home 12</a>
+                </li>
+                <li>
+                  <a>Home 13</a>
+                </li>
+                <li>
+                  <a>Home 14</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- secondery menu end -->
+
+          <li class="nav-item">
+            <a class="nav-link">About us</a>
+          </li>
+          <!-- secondery menu start -->
+          <li class="nav-item has_dropdown">
+            <a class="nav-link">Pages</a>
+            <span class="drp_btn"><i class="icofont-rounded-down"></i></span>
+            <div class="sub_menu">
+              <ul>
+                <li>
+                  <a>Blog List</a>
+                </li>
+                <li>
+                  <a>Single Blog</a>
+                </li>
+                <li>
+                  <a href="SignInForm.html">Sign In</a>
+                </li>
+                <li>
+                  <a href="./signUpForm.html">Sign Up</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- secondery menu end -->
+
+          <li class="nav-item">
+            <a class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <div class="btn_block">
+              <a class="nav-link dark_btn" href="contact.html">Download</a>
+              <div class="btn_bottom"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="menuIcon" onclick="showLinks(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </nav>
+    <!-- <div class="links">
         <div class="select-home">
           <select name="Home" id="home">
             <option value="Home">Home</option>
@@ -55,7 +162,7 @@
         <a href="contact.html">Contact</a>
         <a href="contact.html"><button class="btn1">Download</button></a>
       </div>
-      <!-- This is for Menu iCON -->
+      This is for Menu iCON
       <div class="main-container">
         <div class="menuIcon" onclick="showLinks(this)">
           <div class="bar1"></div>
@@ -97,8 +204,7 @@
           <a href="">Blog</a>
           <a href="">Contact</a>
         </div>
-      </div>
-    </nav>
+      </div> -->
 
     <!-- Hero/Body part start from Here.... -->
     <div class="hero-Part" id="hero_part">
@@ -293,8 +399,8 @@
           </div>
 
           <div class="right-service-3">
-              <img src="./Images/service_3.png" alt="" />
-            </div>
+            <img src="./Images/service_3.png" alt="" />
+          </div>
         </div>
       </div>
     </div>
@@ -479,6 +585,72 @@
       </div>
     </div>
 
+    <!-- REVIEWS_PAGE -->
+    <!-- <div class="review-main-container">
+      <div class="review-left-side">
+        <button>Reviews</button>
+        <h2>Positive reviews</h2>
+        <h4>of our clients</h4>
+        <h3>
+          <img src="./Images/star.png" alt="" />4.5/5.0 Rated on image 1399
+          <a href=""
+            >Total user reviews <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </h3>
+        <img src="./Images/smily.png" alt="" />
+      </div>
+      <div class="review-right-side">
+        <div class="review-1">
+          <div class="image-div">
+            <img src="./Images/review1.png" alt="" />
+            <h2>John Due</h2><br>
+            <h2>Corporate Agency</h2>
+            <img src="./Images/star.png" alt="" />
+          </div>
+          <div class="paragraph-div">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              culpa, dolores ullam laudantium deleniti ipsa qui saepe voluptatum
+              nam pariatur? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Pariatur et, nemo distinctio eum omnis quam!
+            </p>
+          </div>
+        </div>
+         <div class="review-2">
+          <div class="image-div">
+            <img src="./Images/review2..png" alt="" />
+            <h2>John Due</h2>
+            <h2>Corporate Agency</h2>
+            <img src="./Images/star.png" alt="" />
+          </div>
+          <div class="paragraph-div">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              culpa, dolores ullam laudantium deleniti ipsa qui saepe voluptatum
+              nam pariatur? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Pariatur et, nemo distinctio eum omnis quam!
+            </p>
+          </div>
+        </div>
+        <div class="review-3">
+          <div class="image-div">
+            <img src="./Images/review3..png" alt="" />
+            <h2>John Due</h2>
+            <h2>Corporate Agency</h2>
+            <img src="./Images/star.png" alt="" />
+          </div>
+          <div class="paragraph-div">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              culpa, dolores ullam laudantium deleniti ipsa qui saepe voluptatum
+              nam pariatur? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Pariatur et, nemo distinctio eum omnis quam!
+            </p>
+          </div>
+        </div> -->
+      </div>
+      </div> 
+    
     <script src="./scrpt.js"></script>
   </body>
 </html>
